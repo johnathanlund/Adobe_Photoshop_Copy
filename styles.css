@@ -1,0 +1,163 @@
+html body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: yellow;
+}
+
+.single_Page_container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: lawngreen;
+}
+
+.header_Container {
+  width: 100%;
+  height: 220px;
+  background: rgb(19,22,49);
+  color: #ffffff;
+}
+
+.menu_Layout {
+  width: 80%;
+  height: 45px;
+  margin-left: 10%;
+  /*background: lightblue;*/
+}
+
+.icon_Block {
+  width: 40px;
+  height: 20px;
+  /*background: white;*/
+  float: right;
+  margin-top: 23px;
+}
+
+.icon_Words {
+  display: none;
+}
+
+#menu_Icon {
+  width: 70%;
+  height: 120%;
+  /*background: purple;*/
+  margin-left: 15%;
+  margin-top: -5px;
+  background-image: url('./images/hamburger-menu-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#search_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: red;*/
+  margin-left: 15%;
+  background-image: url('./images/search-icon-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#login_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: blue;*/
+  margin-left: 15%;
+  background-image: url('./images/no_user_logo-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adobe_Icon {
+  width: 70%;
+  height: 100%;
+  /*background: orange;*/
+  margin-left: 15%;
+  background-image: url('./images/Adobe-logo-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.middle_Page_Header {
+  width: 100%;
+  height: 25%;
+  margin: 25px 0 0 20px;
+}
+
+#photoshop_Icon {
+  width: 32px;
+  height: 32px;
+  /*display: inline-block;*/
+  float: left;
+  margin-right: 10px;
+  /*background: red;*/
+  background-image: url('./images/Adobe_Photoshop_CC_icon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle_Page_Title {
+width: 100%;
+height: 33px;
+font-size: 27px;
+}
+
+.bottom_Page_Header {
+  width: 100%;
+  height: 45%;
+  margin: 0 0 20px 20px;
+  display: inline-block;
+}
+
+.bottom_Page_Link {
+  /*width: 30px;
+  height: 20px;*/
+  font-size: 16px;
+  padding: 0.5ex 0px 0.5ex 0px;
+  margin: 0.5ex 0.5rem 0.5ex 0.5rem;
+  float: left;
+  text-align: center;
+}
+
+.bottom_Page_Button {
+  width: 80px;
+  height: 32px;
+  background: #2B80C5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin: 20px 0 0 0;
+  font-size: 16px;
+}
+
+.top_Landing_Container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/ps-marquee-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.top_Landing_Info {
+  width: 60%;
+  height: 70%;
+  margin: 0 0 0 20%;
+  text-align: center;
+}
+
+.top_Landing_Title {
+  font-size: 32px;
+}
+
+.top_Landing_Text {
+  font-size: 16px;
+}
+
+.top_Landing_Footer {
+  font-size: 16px;
+  color: #33ccff;
+}
