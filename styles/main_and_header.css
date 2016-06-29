@@ -1,9 +1,15 @@
+@font-face {
+  font-family: myriad;
+  src: url('../fonts/Myriad Pro/Myriad Pro Light.otf');
+}
+
 html body {
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
   background: yellow;
+  font-family: myriad, sans-serif;
 }
 
 .single_Page_container {
@@ -46,7 +52,7 @@ html body {
   /*background: purple;*/
   margin-left: 15%;
   margin-top: -5px;
-  background-image: url('./images/hamburger-menu-mobile.png');
+  background-image: url('../images/hamburger-menu-mobile.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -56,7 +62,7 @@ html body {
   height: 100%;
   /*background: red;*/
   margin-left: 15%;
-  background-image: url('./images/search-icon-mobile.png');
+  background-image: url('../images/search-icon-mobile.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -66,7 +72,7 @@ html body {
   height: 100%;
   /*background: blue;*/
   margin-left: 15%;
-  background-image: url('./images/no_user_logo-mobile.png');
+  background-image: url('../images/no_user_logo-mobile.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -76,7 +82,7 @@ html body {
   height: 100%;
   /*background: orange;*/
   margin-left: 15%;
-  background-image: url('./images/Adobe-logo-mobile.png');
+  background-image: url('../images/Adobe-logo-mobile.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -94,7 +100,7 @@ html body {
   float: left;
   margin-right: 10px;
   /*background: red;*/
-  background-image: url('./images/Adobe_Photoshop_CC_icon.png');
+  background-image: url('../images/Adobe_Photoshop_CC_icon.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -108,7 +114,7 @@ font-size: 27px;
 .bottom_Page_Header {
   width: 100%;
   height: 45%;
-  margin: 0 0 20px 20px;
+  margin: 0 0 10px 20px;
   display: inline-block;
 }
 
@@ -116,10 +122,15 @@ font-size: 27px;
   /*width: 30px;
   height: 20px;*/
   font-size: 16px;
-  padding: 0.5ex 0px 0.5ex 0px;
+  padding: 0.2ex 0px 0.8ex 0px;
   margin: 0.5ex 0.5rem 0.5ex 0.5rem;
   float: left;
   text-align: center;
+}
+
+.bottom_Page_Link:hover {
+  border-bottom: solid 2px #ffffff;
+  cursor: pointer;
 }
 
 .bottom_Page_Button {
@@ -129,35 +140,7 @@ font-size: 27px;
   color: #ffffff;
   border: none;
   border-radius: 4px;
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
   font-size: 16px;
-}
-
-.top_Landing_Container {
-  width: 100%;
-  height: 100vh;
-  background-image: url('./images/ps-marquee-mobile.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-}
-
-.top_Landing_Info {
-  width: 60%;
-  height: 70%;
-  margin: 0 0 0 20%;
-  text-align: center;
-}
-
-.top_Landing_Title {
-  font-size: 32px;
-}
-
-.top_Landing_Text {
-  font-size: 16px;
-}
-
-.top_Landing_Footer {
-  font-size: 16px;
-  color: #33ccff;
+  cursor: pointer;
 }
