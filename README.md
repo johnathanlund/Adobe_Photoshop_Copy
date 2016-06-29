@@ -1,0 +1,1 @@
+# Adobe_Photoshop_Copy
