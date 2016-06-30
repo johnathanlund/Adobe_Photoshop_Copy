@@ -1,31 +1,51 @@
 .top_Landing_Container {
   width: 100%;
-  height: 100%;
+  height: 608px;
+  /*position: relative;*/
+  background: red;
+  color: #ffffff;
+}
+
+.top_Landing_Image {
+  width: 100%;
+  height: 608px;
   position: absolute;
-  background-image: url('../images/ps-marquee-mobile.jpg');
+  /*display: inline-block;*/
+  /*padding-bottom: 200px;*/
+  background-image: url('../images/ps-marquee.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  background-position: 50% 50%;
 }
 
 .top_Landing_Info {
   width: 68%;
   height: 70%;
   top: 150px;
-  margin: 150px 0 0 16%;
+  margin: 147px 0 0 16%;
   text-align: center;
+}
+
+@media (min-height: 650px) {
+  .top_Landing_Info {
+    margin: 285px 0 0 16%;
+  }
 }
 
 .top_Landing_Title {
   font-size: 32px;
+  line-height: 32px;
+  font-weight: lighter;
 }
 
 .top_Landing_Text {
+  margin-top: -10px;
   font-size: 16px;
   line-height: 21px;
 }
 
 .top_Landing_Footer {
+  margin-top: -10px;
   font-size: 16px;
   color: #2b9af3;
 }
@@ -39,10 +59,11 @@
   font-size: 120%;
   font-weight: bold;
   float: right;
-  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 .top_Landing_Author p{
+  margin-top: 5px;
   font-size: 14px;
   text-align: right;
 }
@@ -50,4 +71,12 @@
 .top_Landing_Author p:hover {
   color: #33ccff;
   cursor: pointer;
+}
+
+.top_Photoshop_Offer_Container {
+  width: 100%;
+  height: 147px;
+  background: #2B9AF3;
+  /*display: inline-block;*/
+  margin: 0 0 0 0;
 }
