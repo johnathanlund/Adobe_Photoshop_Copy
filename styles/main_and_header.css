@@ -2,6 +2,10 @@
   font-family: myriad;
   src: url('../fonts/Myriad Pro/Myriad Pro Light.otf');
 }
+@font-face {
+font-family: myriadBold;
+src: url('../fonts/Myriad Pro/Myriad Pro Bold.ttf');
+}
 
 html body {
   width: 100vw;
