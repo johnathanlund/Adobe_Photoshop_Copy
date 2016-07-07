@@ -92,6 +92,17 @@ html body {
   background-size: contain;
 }
 
+#scrolling_Header {
+  position: sticky;
+  background: rgb(19,22,49);
+  z-index: 10;
+}
+
+.scrolling_Header_2 {
+  position: fixed;
+  top: 0;
+}
+
 .middle_Page_Header {
   width: 100%;
   height: 25%;
@@ -119,18 +130,19 @@ font-size: 27px;
 .bottom_Page_Header {
   width: 100%;
   height: 45%;
-  margin: 0 0 10px 20px;
-  display: inline-block;
+  margin: 0 0 2rem 0;
+  display: flex;
+  /*text-align: left;*/
 }
 
 .bottom_Page_Link {
-  /*width: 30px;
-  height: 20px;*/
   font-size: 16px;
-  padding: 0.2ex 0px 0.8ex 0px;
+  font-weight: 500;
+  line-height: 22px;
+  /*padding: 0.2ex 0px 0.8ex 0px;*/
   margin: 0.5ex 0.5rem 0.5ex 0.5rem;
   float: left;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .bottom_Page_Link:hover {
@@ -141,6 +153,7 @@ font-size: 27px;
 .bottom_Page_Button {
   width: 80px;
   height: 32px;
+  position: absolute;
   background: #2B80C5;
   color: #ffffff;
   border: none;
@@ -152,4 +165,8 @@ font-size: 27px;
 .bottom_Page_Button:hover {
   cursor: pointer;
   background: #0C80D9;
+}
+
+.bottom_Scrolling_Link {
+  /*display: none;*/
 }
