@@ -26,9 +26,12 @@
   text-align: center;
 }
 
-@media (min-height: 650px) {
+@media (min-device-height: 667px) {
   .top_Landing_Info {
-    margin: 285px 0 0 16%;
+    width: 78%;
+    height: 70%;
+    margin: 247px 0 0 10%;
+    text-align: center;
   }
 }
 
@@ -44,10 +47,25 @@
   line-height: 21px;
 }
 
+@media (min-device-height: 667px) {
+  .top_Landing_Text {
+    margin: -17px 0 0 0;
+    line-height: 19px;
+  }
+}
+
 .top_Landing_Footer {
   margin-top: -10px;
   font-size: 16px;
   color: #2b9af3;
+}
+
+
+
+@media (min-device-height: 667px) {
+  .top_Landing_Footer {
+    margin: 10px 0 0 0;
+  }
 }
 
 .top_Landing_Footer:hover {
@@ -126,8 +144,16 @@
   cursor: pointer;
   border: white solid 1px;
   border-radius: 4px;
-  /*margin: 0 0 10px 0;*/
+  margin: 0 0 0 10px;
   vertical-align: middle;
+}
+
+@media (min-device-height: 667px) {
+  .top_Photoshop_Offer_Button {
+    font-size: 16px;
+    line-height: 17px;
+    /*margin: 0 0 0 10px;*/
+  }
 }
 
 .top_Photoshop_Offer_Button:hover {
