@@ -10,6 +10,12 @@
   text-align: center;
 }
 
+@media (min-device-height: 667px) {
+  .middle_Tutorial_Container {
+    margin: 156vh 0 0 0;
+  }
+}
+
 .middle_Tutorial_Top_Info_Box{
   width: 100%;
   height: 255px;

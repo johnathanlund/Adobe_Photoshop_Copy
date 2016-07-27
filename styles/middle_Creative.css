@@ -6,10 +6,22 @@
   background: #ffffff;
 }
 
+@media (min-device-height: 667px) {
+  .middle_Creative_Container {
+    height: 160%;
+  }
+}
+
 .middle_Creative_Top_Info_Box {
-  width: 280px;
-  margin: 5px 0 50px 20px;
+  width: 90%;
+  margin: 5px 0 50px 5%;
   text-align: center;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Top_Info_Box {
+    margin: 5px 0 0 5%;
+  }
 }
 
 .middle_Creative_Top_Info_Heading {
@@ -48,12 +60,25 @@
   line-height: 19px;
 }
 
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Box {
+    margin: 5px 0 0 0;
+  }
+}
+
 .middle_Creative_Mid_Info_Image {
   width: 288px;
   height: 160px;
   margin: 0 0 0 15px;
   padding: 0;
   border: 0;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Image {
+    width: 343px;
+    height: 188px;
+  }
 }
 
 .connected1 {
@@ -73,10 +98,23 @@ font-family: myriadBold, sans-serif;
 margin: 0.5rem 0 0.5rem 0;
 }
 
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Heading {
+    margin: 0.5rem 0 0.5rem 10%;
+  }
+}
+
+
 .middle_Creative_Mid_Info_Text {
 font-size: 14px;
 line-height: 19px;
-margin: 0 0 0 15px;
+margin: 0 0 0 5%;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Text {
+    margin: 0 0 0 10%;
+  }
 }
 
 .middle_Creative_Mid_Info_Link {
@@ -84,6 +122,12 @@ margin: 0 0 0 15px;
   color: #2b9af3;
   text-decoration: none;
   margin: 0 0 0.5rem 0;
+}
+
+@media (min-device-height: 667px) {
+  .middle_Creative_Mid_Info_Link {
+    margin: 0 0 0.5rem 10%;
+  }
 }
 
 .middle_Creative_Mid_Info_Link:hover {
