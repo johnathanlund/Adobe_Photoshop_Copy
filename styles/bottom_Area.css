@@ -93,7 +93,7 @@ text-align: center;
   border: none;
   border-radius: 4px;
   margin: 0 0 0.5rem 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .bottom_Area_Offers_Button:hover {
@@ -103,6 +103,7 @@ text-align: center;
 
 .bottom_Area_Box_Link {
   font-size: 14px;
+  font-weight: normal;
   /*line-height: 19px;*/
   color: #2b9af3;
   text-decoration: none;
