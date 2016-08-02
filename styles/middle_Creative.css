@@ -84,11 +84,13 @@
 .connected1 {
   background-image: url('../images/ps-connected1-1000x550.jpg');
   background-size: cover;
+  margin: 50px 0 0 0;
 }
 
 .connected2 {
   background-image: url('../images/ps-connected2-1000x550.jpg');
   background-size: cover;
+  margin: 10px 0 0 0;
 }
 
 .middle_Creative_Mid_Info_Heading {

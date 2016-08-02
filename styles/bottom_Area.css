@@ -7,9 +7,16 @@
   margin: 365vh 0 0 0;
 }
 
+@media (min-device-height: 667px) {
+  .bottom_Area_Container {
+    height: 150%;
+    margin: 331vh 0 0 0;
+  }
+}
+
 .bottom_Area_Offers_Container {
 width: 90%;
-height: 90%;
+height: 100%;
 margin: 27% 0 0 5%;
 text-align: center;
 }
@@ -20,12 +27,30 @@ text-align: center;
   border: .0625rem solid #a1a1b0;
   border-radius: 1ex;
   box-sizing: border-box;
+  text-align: center;
 }
+
+@media (min-device-height: 667px) {
+  .offers_Box_3  .bottom_Area_Offers_Box_Info{
+    margin: 14% 0 14% 5%;
+  }
+  .offers_Box_4  .bottom_Area_Offers_Box_Info{
+    margin: 14% 0 14% 5%;
+  }
+}
+
 .bottom_Area_Offers_Box_Info {
-  width: 237px;
+  width: 90%;
   /*height: 227px;*/
-  margin: 0 0 31px 31px;
+  margin: 0 0 31px 5%;
 }
+
+/*@media (min-device-height: 667px) {
+  .bottom_Area_Offers_Box_Info {
+    width: 80%;
+    margin: 0 0 28px 10%;
+  }
+}*/
 
 .bottom_Area_Box_1_Line1 {
   font-size: 14px;
@@ -45,6 +70,7 @@ text-align: center;
 
 .bottom_Area_Box_SubHeading {
   font-size: 14px;
+  font-weight: 300;
   line-height: 19px;
   margin: 0.25rem 0 0 0;
 }
