@@ -32,6 +32,12 @@ html body {
   color: #ffffff;
 }
 
+@media (min-device-width: 1024px) {
+  .header_Container {
+    background: none;
+  }
+}
+
 .menu_Layout {
   width: 80%;
   height: 70px;
@@ -94,19 +100,32 @@ html body {
 
 #scrolling_Header {
   position: sticky;
-  background: rgb(19,22,49);
+  background: #131630;
   z-index: 10;
 }
 
-/*.scrolling_Header_2 {
-  position: fixed;
-  top: 0;
+/*@media (min-device-height: 667px) {
+  #scrolling_Header {
+    margin: 50px 0 0 5%;
+  }
 }*/
+
+@media (min-device-width: 1024px) {
+  #scrolling_Header {
+    background: none;
+  }
+}
 
 .middle_Page_Header {
   width: 100%;
   height: 45px;
   margin: -10px 0 0 20px;
+}
+
+@media (min-device-width: 1024px) {
+  .middle_Page_Header {
+    margin: 0 0 0 20px;
+  }
 }
 
 #photoshop_Icon {
