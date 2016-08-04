@@ -84,13 +84,25 @@
 .connected1 {
   background-image: url('../images/ps-connected1-1000x550.jpg');
   background-size: cover;
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 5%;
+}
+
+@media (min-device-height: 667px) {
+  .connected1 {
+    margin: 50px 0 0 5%;
+  }
 }
 
 .connected2 {
   background-image: url('../images/ps-connected2-1000x550.jpg');
   background-size: cover;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 5%;
+}
+
+@media (min-device-height: 667px) {
+  .connected2 {
+    margin: 10px 0 0 5%;
+  }
 }
 
 .middle_Creative_Mid_Info_Heading {
@@ -115,7 +127,7 @@ margin: 0 0 0 5%;
 
 @media (min-device-height: 667px) {
   .middle_Creative_Mid_Info_Text {
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
   }
 }
 
